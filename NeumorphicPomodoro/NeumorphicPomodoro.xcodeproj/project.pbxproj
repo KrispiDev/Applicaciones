@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4173E0027F9008700A3211E /* CreateWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4173DFF27F9008700A3211E /* CreateWorkView.swift */; };
+		C4315CDA27F9DEA3005FB849 /* ShallowConcaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4315CD927F9DEA2005FB849 /* ShallowConcaveView.swift */; };
+		C4315CDC27F9DEFA005FB849 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4315CDB27F9DEFA005FB849 /* CustomToggle.swift */; };
+		C4315CDF27FB8BBF005FB849 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4315CDE27FB8BBF005FB849 /* NotificationDelegate.swift */; };
+		C433F23F280DA6100054F3CC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F23E280DA6100054F3CC /* DetailView.swift */; };
+		C433F242280F177C0054F3CC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F241280F177C0054F3CC /* StringExtensions.swift */; };
+		C45FAEF927F79861006EB3E8 /* NeumorphicPomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FAEF827F79861006EB3E8 /* NeumorphicPomodoroApp.swift */; };
+		C45FAEFB27F79861006EB3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FAEFA27F79861006EB3E8 /* ContentView.swift */; };
+		C45FAEFD27F79862006EB3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45FAEFC27F79862006EB3E8 /* Assets.xcassets */; };
+		C45FAF0027F79862006EB3E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45FAEFF27F79862006EB3E8 /* Preview Assets.xcassets */; };
+		C45FAF0727F7CEE2006EB3E8 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FAF0627F7CEE2006EB3E8 /* Arc.swift */; };
+		C46F490227FDBE8A0045A895 /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490127FDBE8A0045A895 /* NotificationData.swift */; };
+		C46F490527FE23150045A895 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490427FE23150045A895 /* ContentViewModel.swift */; };
+		C46F490727FE23770045A895 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490627FE23770045A895 /* Session.swift */; };
+		C46F49092801A0490045A895 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F49082801A0490045A895 /* SettingsView.swift */; };
+		C46F490B2801A2490045A895 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490A2801A2490045A895 /* HistoryView.swift */; };
+		C46F490D2801A4110045A895 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490C2801A4110045A895 /* Settings.swift */; };
+		C46F49102801A6C70045A895 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F490F2801A6C70045A895 /* SettingsManager.swift */; };
+		C46F49122801BE930045A895 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F49112801BE930045A895 /* CustomStepper.swift */; };
+		C4C97D6327F85BE9000A5363 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6227F85BE9000A5363 /* NeumorphicButtonStyle.swift */; };
+		C4C97D6627F85D65000A5363 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6527F85D65000A5363 /* Counter.swift */; };
+		C4C97D6827F85EB1000A5363 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6727F85EB1000A5363 /* Header.swift */; };
+		C4C97D6A27F8626D000A5363 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6927F8626D000A5363 /* CardModifier.swift */; };
+		C4C97D6C27F862B6000A5363 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6B27F862B6000A5363 /* ColorExtensions.swift */; };
+		C4C97D6E27F8634A000A5363 /* ButtonPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97D6D27F8634A000A5363 /* ButtonPad.swift */; };
+		C4F042EF2804B5400090B402 /* NeumorphicPomodoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4F042ED2804B5400090B402 /* NeumorphicPomodoro.xcdatamodeld */; };
+		C4F042F62804B7A40090B402 /* PomodoroSession+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F042F42804B7A40090B402 /* PomodoroSession+CoreDataClass.swift */; };
+		C4F042F72804B7A40090B402 /* PomodoroSession+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F042F52804B7A40090B402 /* PomodoroSession+CoreDataProperties.swift */; };
+		C4F042FA2804B81E0090B402 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F042F92804B81E0090B402 /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4173DFF27F9008700A3211E /* CreateWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkView.swift; sourceTree = "<group>"; };
+		C4315CD927F9DEA2005FB849 /* ShallowConcaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShallowConcaveView.swift; sourceTree = "<group>"; };
+		C4315CDB27F9DEFA005FB849 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		C4315CDE27FB8BBF005FB849 /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		C433F23E280DA6100054F3CC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C433F241280F177C0054F3CC /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C45FAEF527F79861006EB3E8 /* NeumorphicPomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicPomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FAEF827F79861006EB3E8 /* NeumorphicPomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicPomodoroApp.swift; sourceTree = "<group>"; };
+		C45FAEFA27F79861006EB3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C45FAEFC27F79862006EB3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45FAEFF27F79862006EB3E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C45FAF0627F7CEE2006EB3E8 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		C46F490127FDBE8A0045A895 /* NotificationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationData.swift; sourceTree = "<group>"; };
+		C46F490427FE23150045A895 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C46F490627FE23770045A895 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C46F49082801A0490045A895 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C46F490A2801A2490045A895 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C46F490C2801A4110045A895 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C46F490F2801A6C70045A895 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		C46F49112801BE930045A895 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		C4C97D6227F85BE9000A5363 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		C4C97D6527F85D65000A5363 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		C4C97D6727F85EB1000A5363 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C4C97D6927F8626D000A5363 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		C4C97D6B27F862B6000A5363 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		C4C97D6D27F8634A000A5363 /* ButtonPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPad.swift; sourceTree = "<group>"; };
+		C4F042EE2804B5400090B402 /* NeumorphicPomodoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeumorphicPomodoro.xcdatamodel; sourceTree = "<group>"; };
+		C4F042F42804B7A40090B402 /* PomodoroSession+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PomodoroSession+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C4F042F52804B7A40090B402 /* PomodoroSession+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PomodoroSession+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C4F042F92804B81E0090B402 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45FAEF227F79861006EB3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4173DFE27F9005A00A3211E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4173DFF27F9008700A3211E /* CreateWorkView.swift */,
+				C46F49082801A0490045A895 /* SettingsView.swift */,
+				C46F490A2801A2490045A895 /* HistoryView.swift */,
+				C433F23E280DA6100054F3CC /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4173E0127F9025300A3211E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C46F490127FDBE8A0045A895 /* NotificationData.swift */,
+				C46F490627FE23770045A895 /* Session.swift */,
+				C46F490C2801A4110045A895 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4315CDD27FB8B97005FB849 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C4315CDE27FB8BBF005FB849 /* NotificationDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C433F240280F17640054F3CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C433F241280F177C0054F3CC /* StringExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C45FAEEC27F79861006EB3E8 = {
+			isa = PBXGroup;
+			children = (
+				C45FAEF727F79861006EB3E8 /* NeumorphicPomodoro */,
+				C45FAEF627F79861006EB3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45FAEF627F79861006EB3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45FAEF527F79861006EB3E8 /* NeumorphicPomodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45FAEF727F79861006EB3E8 /* NeumorphicPomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				C433F240280F17640054F3CC /* Utils */,
+				C4F042F82804B7B90090B402 /* CoreData */,
+				C46F490E2801A6B50045A895 /* Services */,
+				C46F490327FE23060045A895 /* ViewModels */,
+				C4315CDD27FB8B97005FB849 /* Delegates */,
+				C4173E0127F9025300A3211E /* Models */,
+				C4173DFE27F9005A00A3211E /* Views */,
+				C4C97D6427F85D44000A5363 /* Components */,
+				C4C97D6127F85BCE000A5363 /* Style */,
+				C45FAEF827F79861006EB3E8 /* NeumorphicPomodoroApp.swift */,
+				C45FAEFA27F79861006EB3E8 /* ContentView.swift */,
+				C45FAEFC27F79862006EB3E8 /* Assets.xcassets */,
+				C45FAEFE27F79862006EB3E8 /* Preview Content */,
+				C4F042ED2804B5400090B402 /* NeumorphicPomodoro.xcdatamodeld */,
+			);
+			path = NeumorphicPomodoro;
+			sourceTree = "<group>";
+		};
+		C45FAEFE27F79862006EB3E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C45FAEFF27F79862006EB3E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C46F490327FE23060045A895 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C46F490427FE23150045A895 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C46F490E2801A6B50045A895 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C46F490F2801A6C70045A895 /* SettingsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4C97D6127F85BCE000A5363 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C4C97D6227F85BE9000A5363 /* NeumorphicButtonStyle.swift */,
+				C4C97D6927F8626D000A5363 /* CardModifier.swift */,
+				C4C97D6B27F862B6000A5363 /* ColorExtensions.swift */,
+				C4315CD927F9DEA2005FB849 /* ShallowConcaveView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		C4C97D6427F85D44000A5363 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C45FAF0627F7CEE2006EB3E8 /* Arc.swift */,
+				C4C97D6527F85D65000A5363 /* Counter.swift */,
+				C4C97D6727F85EB1000A5363 /* Header.swift */,
+				C4C97D6D27F8634A000A5363 /* ButtonPad.swift */,
+				C4315CDB27F9DEFA005FB849 /* CustomToggle.swift */,
+				C46F49112801BE930045A895 /* CustomStepper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C4F042F82804B7B90090B402 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C4F042F42804B7A40090B402 /* PomodoroSession+CoreDataClass.swift */,
+				C4F042F52804B7A40090B402 /* PomodoroSession+CoreDataProperties.swift */,
+				C4F042F92804B81E0090B402 /* DataController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45FAEF427F79861006EB3E8 /* NeumorphicPomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45FAF0327F79862006EB3E8 /* Build configuration list for PBXNativeTarget "NeumorphicPomodoro" */;
+			buildPhases = (
+				C45FAEF127F79861006EB3E8 /* Sources */,
+				C45FAEF227F79861006EB3E8 /* Frameworks */,
+				C45FAEF327F79861006EB3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeumorphicPomodoro;
+			productName = NeumorphicPomodoro;
+			productReference = C45FAEF527F79861006EB3E8 /* NeumorphicPomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45FAEED27F79861006EB3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C45FAEF427F79861006EB3E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C45FAEF027F79861006EB3E8 /* Build configuration list for PBXProject "NeumorphicPomodoro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45FAEEC27F79861006EB3E8;
+			productRefGroup = C45FAEF627F79861006EB3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45FAEF427F79861006EB3E8 /* NeumorphicPomodoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45FAEF327F79861006EB3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FAF0027F79862006EB3E8 /* Preview Assets.xcassets in Resources */,
+				C45FAEFD27F79862006EB3E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45FAEF127F79861006EB3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C97D6627F85D65000A5363 /* Counter.swift in Sources */,
+				C46F490727FE23770045A895 /* Session.swift in Sources */,
+				C45FAEFB27F79861006EB3E8 /* ContentView.swift in Sources */,
+				C4C97D6327F85BE9000A5363 /* NeumorphicButtonStyle.swift in Sources */,
+				C4C97D6E27F8634A000A5363 /* ButtonPad.swift in Sources */,
+				C46F49092801A0490045A895 /* SettingsView.swift in Sources */,
+				C4315CDC27F9DEFA005FB849 /* CustomToggle.swift in Sources */,
+				C433F23F280DA6100054F3CC /* DetailView.swift in Sources */,
+				C46F490B2801A2490045A895 /* HistoryView.swift in Sources */,
+				C45FAEF927F79861006EB3E8 /* NeumorphicPomodoroApp.swift in Sources */,
+				C4173E0027F9008700A3211E /* CreateWorkView.swift in Sources */,
+				C4F042FA2804B81E0090B402 /* DataController.swift in Sources */,
+				C4C97D6827F85EB1000A5363 /* Header.swift in Sources */,
+				C46F490527FE23150045A895 /* ContentViewModel.swift in Sources */,
+				C4C97D6A27F8626D000A5363 /* CardModifier.swift in Sources */,
+				C46F490227FDBE8A0045A895 /* NotificationData.swift in Sources */,
+				C4F042F62804B7A40090B402 /* PomodoroSession+CoreDataClass.swift in Sources */,
+				C45FAF0727F7CEE2006EB3E8 /* Arc.swift in Sources */,
+				C4315CDF27FB8BBF005FB849 /* NotificationDelegate.swift in Sources */,
+				C4F042F72804B7A40090B402 /* PomodoroSession+CoreDataProperties.swift in Sources */,
+				C46F49102801A6C70045A895 /* SettingsManager.swift in Sources */,
+				C433F242280F177C0054F3CC /* StringExtensions.swift in Sources */,
+				C46F49122801BE930045A895 /* CustomStepper.swift in Sources */,
+				C4C97D6C27F862B6000A5363 /* ColorExtensions.swift in Sources */,
+				C4315CDA27F9DEA3005FB849 /* ShallowConcaveView.swift in Sources */,
+				C4F042EF2804B5400090B402 /* NeumorphicPomodoro.xcdatamodeld in Sources */,
+				C46F490D2801A4110045A895 /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C45FAF0127F79862006EB3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45FAF0227F79862006EB3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45FAF0427F79862006EB3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicPomodoro/Preview Content\"";
+				DEVELOPMENT_TEAM = GZPNWT798Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develaw.NeumorphicPomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C45FAF0527F79862006EB3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicPomodoro/Preview Content\"";
+				DEVELOPMENT_TEAM = GZPNWT798Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develaw.NeumorphicPomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45FAEF027F79861006EB3E8 /* Build configuration list for PBXProject "NeumorphicPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FAF0127F79862006EB3E8 /* Debug */,
+				C45FAF0227F79862006EB3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45FAF0327F79862006EB3E8 /* Build configuration list for PBXNativeTarget "NeumorphicPomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FAF0427F79862006EB3E8 /* Debug */,
+				C45FAF0527F79862006EB3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4F042ED2804B5400090B402 /* NeumorphicPomodoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4F042EE2804B5400090B402 /* NeumorphicPomodoro.xcdatamodel */,
+			);
+			currentVersion = C4F042EE2804B5400090B402 /* NeumorphicPomodoro.xcdatamodel */;
+			path = NeumorphicPomodoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C45FAEED27F79861006EB3E8 /* Project object */;
+}
